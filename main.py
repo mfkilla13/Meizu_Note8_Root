@@ -1,5 +1,6 @@
 from pywinauto import application
-import time
+import os
 
 app = application.Application()
-app.start("C:\Program Files(x86)\Qualcomm\QPST\bin\QFIL.exe")
+path = r'C:\Program Files (x86)\Qualcomm\QPST\bin\QFIL.exe'
+app.start(path)
